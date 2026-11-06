@@ -1,0 +1,32 @@
+# Local simulation outputs
+build/*
+!build/.gitkeep
+reports/*
+!reports/.gitkeep
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# Vivado generated files
+.Xil/
+*.jou
+*.pb
+*.wdb
+*.dcp
+*.bit
+*.bin
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+
+# Editor and operating-system files
+*.swp
+*.swo
+*~
+.DS_Store
+
